@@ -40,14 +40,14 @@ namespace program_0404_083016
                 else
                 {
                     // Display an erro message for gallons
-                    Console.WriteLine("Your input {0} is invalid for gallons.", gallons);
+                    Console.WriteLine("Your input {0} is invalid for gallons.", strGallons);
                     Console.ReadLine();
                 }
             }
             else
             {
                 // Display an error message for miles.
-                Console.WriteLine("Your input {0} is invalid input for miles.", miles);
+                Console.WriteLine("Your input {0} is invalid for miles.", strMiles);
                 Console.ReadLine();
             }
         }
